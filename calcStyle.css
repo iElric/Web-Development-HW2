@@ -1,0 +1,48 @@
+.calculator {
+    border: 5px solid black;
+    /* make a round corner */
+    border-radius: 15px;
+    width: 450px;
+    padding: 3px;
+    /* move the calculator to center relative to the page*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.calculator-screen {
+    border: 5px inset gray;
+    border-radius: 10px;
+    width: 90%;
+    padding: 3px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 80px;
+    font-size: 80px;
+    text-align: right;
+    background-color: black;
+    color: white;
+}
+
+button {
+    border: 3px solid gray;
+    border-radius: 5px;
+    height: 50px;
+    background-color: transparent;
+    font-size: 32px;
+    color: black;
+}
+
+/* make the keys as containers */
+.calculator-keys {
+    margin: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
