@@ -1,3 +1,6 @@
+/* This is a basic calculator using strategy design pattern. It works like a finite machine. The calculator itself is
+* only responsible for taking inputs. Then current state will transfer to other state or remain the same whenever there
+* is an input. Refer for README for detail behaviours.*/
 (function () {
     'use strict';
 
@@ -130,6 +133,7 @@
 
     /* The calculator object which only responsible for listen for clicks and pass the input to its currentState, let
     *  currentState to handle the rest of work. */
+
     function Calculator() {
         this.calcFirstOperandState = new CalcFirstOperandState(this);
         this.calcFirstOperandDecimalState = new CalcFirstOperandDecimalState(this);
@@ -207,6 +211,8 @@
             let clears = document.getElementsByClassName("clear");
             Array.from(clears).forEach(clear => {
                 clear.addEventListener("click", event => {
+                    /* ideally clear should be used inside all the currentState, but since there is no abstract class
+                    * thing in javascript, repeat this line of code five times is cumbersome*/
                     that.clear();
                     that.updateDisplay();
                 })
