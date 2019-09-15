@@ -4,5 +4,5 @@
 - When you want to use previous answer as first operand, just type any operators to continue, which also means that all operators can work as "=".
 - Type new operator can override the previous one. For instance, type "3", "+", "-", "1" will give you 2.
 - Press "C" to clear all(restart).
-- Any number divide by o will give infinity.
+- Any number divide by 0 will give infinity.
  
