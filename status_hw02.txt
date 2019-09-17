@@ -1,6 +1,5 @@
 Please fill in answers to the questions below:
 
-
 1. What's your name?
 Yexin Wang
 
@@ -14,15 +13,17 @@ https://github.com/iElric/Web-Development-HW2.git
 Around half of them.
 
 5. How comfortable do you feel with HTML and CSS now?
-I am able to build some not too complicated web pages with them. There are definitely more fancy stuff I need to get
-used to with css.
+I am able to build some not too complicated web pages with them.
+There are definitely more fancy stuff I need to get used to with css.
 
 6. How many JS tutorial exercises did you do?
 Nearly all of them. I also read some text books and other websites to learn JS.
 
 7. How comfortable do you feel with JS now?
-There are still some features I need to be familiar with such as use prototype to realize inheritance. And I need to
-get used to some wired behaviours of JS such as this reference changes depends on context.
+There are still some features I need to be familiar with such as use
+prototype to realize inheritance. And I need to get used to some
+wired behaviours of JS such as this reference changes depends on
+context.
 
 8. Do all of your HTML pages pass the W3C HTML validator?
 (https://validator.w3.org/)
@@ -30,12 +31,12 @@ Yes.
 
 
 9. Which parts of this assignment did you have trouble with, if any?
-The calculator part. I want to implement the state design pattern in JS just like whatI did in Java. However,
-implementing inheritance in JS is quite complex and not intuitive. I am able to do it finally because JS is weakly typed
-so I can implement polymorphism directly without inheritance.
-Also, I have to read several posts to understand how keyword "this" worked in JS.
-
-
+The calculator part. I want to implement the state design pattern in
+JS just like whatI did in Java. However, implementing inheritance in
+JS is quite complex and not intuitive. I am able to do it finally
+because JS is weakly typed so I can implement polymorphism directly
+without inheritance. Also, I have to read several posts to understand
+how keyword "this" worked in JS.
 
 
 And here's a list of tasks for grading comments. Just leave this here:
